@@ -1,0 +1,71 @@
+body {
+    background-color: rgba(0, 0, 0, 0.84);
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    width: 40%;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #CA7900;
+}
+
+.topo {
+    align-items: flex-start;
+    flex-direction: row;
+    display: flex;
+}
+
+
+.card img{
+    margin-top: -40px;
+    width: 100px;
+}
+
+.botoes{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+button {
+    padding: 5px 30px 5px 30px;
+    margin-left:5px;
+    margin-right:5px;
+    background-color: #CA8500;
+    border: 3px solid #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+    color:white;
+    font-weight: 600;
+    font-size:15px;
+    margin-top: 200px;
+    cursor: pointer; 
+    
+}
+
+button:hover{
+    opacity: 0.8;
+}
